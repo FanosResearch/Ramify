@@ -9,9 +9,26 @@
 
 <a name="an-overview"></a>
 ## An Overview
-
-RAMify is a framework for Benchmark generation suite to evaluate different
-memory architectures. RAMify creates both a C++ program that is runnable in any machine or full-system simulator as well as memory traces that can be used with standalone memory simulators.
+Explainable workloads with analyzable memory traffic patterns are
+key for accurate performance estimates at early design exploration
+phase for novel memory solutions. This paper proposes RAMify:
+a tunable framework for generating explainable memory-centric
+workloads. By being memory-aware: RAMify offers several tun-
+ing knobs enabling the generation of an extensive set of different
+workloads, each of them is low-level tuned to produce a partic-
+ular DRAM access pattern. RAMify enables a systematic way to
+explore and evaluate novel memory subsystem proposals at early
+design phases, validate their performance, stress their behaviour,
+and qualitatively compare them against other policies under various
+memory-aware scenarios to facilitate data-driven design choices.
+We evaluated with extensive experiments across three different
+cycle-accurate memory simulators and a full-system multi-core
+simulator. Results show that using RAMify, we were able to 1) make
+interesting observations about the comparative behavior of two of
+the state-of-the-art memory technologies (DDR4 and HBM) that
+were not possible to make in non memory-centric benchmarks, and
+2) We managed to reveal discrepancies in state-of-the-art memory
+simulator policies and scheduling techniques.
 
 The initial release of RAMify is described in the following paper:
 >M. Abuelala and M. Hassan
