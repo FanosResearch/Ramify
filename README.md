@@ -12,7 +12,15 @@
 ## An Overview
 
 RAMify is a framework for Benchmark generation suite to evaluate different
-memory architectures, that are built on SW simulators:
+memory architectures. RAMify creates both a C++ program that is runnable in any machine or full-system simulator as well as memory traces that can be used with standalone memory simulators.
+
+The initial release of RAMify is described in the following paper:
+>M. Abuelala and M. Hassan
+>"[**A Framework for Explainable, Comprehensive, and Customizable Memory-Centric
+Workloads**]".
+>In _ACM/IEEE International Conference on Computer-Aided Design_, 2024.
+
+Examples of simulators we experimented with: 
 
 - DRAMsim2 \[1\] 
 - Ramulator \[2\]
@@ -29,7 +37,7 @@ memory architectures, that are built on SW simulators:
 <a name="usage"></a>
 ## Usage
 
-RAMify creates both a C++ program that is runnable in any machine or full-system simulator as well as memory traces that can be used with standalone memory simulators.
+
 
 
 
