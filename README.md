@@ -3,8 +3,7 @@
 ## Table of Contents:
 
 1) [ An Overview ](#an-overview)
-2) [ Usage ](#usage)
-3) [ Building RAMify ](#getting-started)
+2) [ Building RAMify ](#getting-started)
 3) [ Running RAMify ](#running-command)
 4) [ Automated Simulation ](#running-sim)
 
@@ -32,13 +31,6 @@ Examples of simulators we experimented with:
 2015.](https://people.inf.ethz.ch/omutlu/pub/ramulator_dram_simulator-ieee-cal15.pdf)
 
 [\[3\] Mirosanlou et al. *Mcsim: An extensible dram memory controller simulator.* IEEE CAL 2020.](https://www.ece.mcmaster.ca/faculty/hassan/assets/publications/reza_MCsim_CAL.pdf)
-
-
-<a name="usage"></a>
-## Usage
-
-
-
 
 
 <a name="getting-started"></a>
