@@ -6,6 +6,7 @@
 2) [ Building RAMify ](#getting-started)
 3) [ Running RAMify ](#running-command)
 4) [ Automated Simulation ](#running-sim)
+5) [RAMSuite](#ramsuite)
 
 <a name="an-overview"></a>
 ## An Overview
@@ -112,3 +113,14 @@ Where,
         #    2.2) Regression Mode
         #            ./do_sim.sh Regression hit_R_TC 0
         #            ./do_sim.sh Regression hit_R_TC 0  
+
+
+<a name="ramsuite"></a>
+## RAMSuite
+
+We use RAMify’s capabilities to present RAMSuite. RAMSuite is
+intended to help SoC architects in early design phases to compre-
+hensively stress the various features of modern main memory sys-
+tems. It can be used out of the box without the need to go through
+configuration of RAMify. RAMSuite comprises a total of 132 work-
+loads.
