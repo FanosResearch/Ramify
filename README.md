@@ -18,7 +18,7 @@ The initial release of RAMify is described in the following paper:
 >M. Abuelala and M. Hassan
 >"[**A Framework for Explainable, Comprehensive, and Customizable Memory-Centric
 Workloads**]".
->In _ACM/IEEE International Conference on Computer-Aided Design_, 2024.
+>In _ACM/IEEE International Conference on Computer-Aided Design (ICCAD)_, 2024.
 
 Examples of simulators we experimented with: 
 
