@@ -1,17 +1,17 @@
-# RAMBench
+# RAMify
 
 ## Table of Contents:
 
 1) [ An Overview ](#an-overview)
 2) [ Usage ](#usage)
-3) [ Building RAMBench ](#getting-started)
-3) [ Running RAMBench ](#running-command)
+3) [ Building RAMify ](#getting-started)
+3) [ Running RAMify ](#running-command)
 4) [ Automated Simulation ](#running-sim)
 
 <a name="an-overview"></a>
 ## An Overview
 
-RAMBench is a framework for Benchmark generation suite to evaluate different
+RAMify is a framework for Benchmark generation suite to evaluate different
 memory architectures, that are built on SW simulators:
 
 - DRAMsim2 \[1\] 
@@ -29,14 +29,14 @@ memory architectures, that are built on SW simulators:
 <a name="usage"></a>
 ## Usage
 
-RAMBench creates both a C++ program that is runnable in any machine or full-system simulator as well as memory traces that can be used with standalone memory simulators.
+RAMify creates both a C++ program that is runnable in any machine or full-system simulator as well as memory traces that can be used with standalone memory simulators.
 
 
 
 <a name="getting-started"></a>
-## Building RAMBench
+## Building RAMify
 
-RAMBench requires a C++11 compiler (e.g., `clang++`).
+RAMify requires a C++11 compiler (e.g., `clang++`).
 
 
 
@@ -44,8 +44,8 @@ RAMBench requires a C++11 compiler (e.g., `clang++`).
       $ make
 ```
 <a name="running-command"></a>
-## Running RAMBench
-To run RAMBench, you need to provide three configuration files: 1) application, 2) device, and 3) system that models your use-case. 
+## Running RAMify
+To run RAMify, you need to provide three configuration files: 1) application, 2) device, and 3) system that models your use-case. 
 Examples of these configuration files are under config/app, config/device, and config/system, respectively.
 An example of a run command is as follows:
 
@@ -57,7 +57,7 @@ An example of a run command is as follows:
 <a name="running-sim"></a>
 ## Automated Simulation
 
-Once you have built and run the RAMBench, it should be easy to use the automation bash script "do_sim.sh" to run both directed and regression test using the following command
+Once you have built and run the RAMify, it should be easy to use the automation bash script "do_sim.sh" to run both directed and regression test using the following command
 
 ```
 ./do_sim.sh <TestType> <TestCategory> <TestCaseNum> 
